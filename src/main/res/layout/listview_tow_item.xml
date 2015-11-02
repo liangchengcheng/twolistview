@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:id="@+id/iv_content_image"
+    android:background="@drawable/cc"
+    android:layout_width="60dp"
+    android:layout_height="60dp" />
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_content_image"
+        android:layout_width="wrap_content"
+        android:text="向阳花开放的春天"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
